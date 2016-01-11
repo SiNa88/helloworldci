@@ -1,0 +1,14 @@
+{
+  "name": "editdemo",
+  "version": "0.0.0",
+  "author": “Michele Leroux Bustamante <michelebusta@solliance.net>”,
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
+
