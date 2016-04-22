@@ -4,7 +4,7 @@ var http = require('http');
 var app = express();
 
 app.get('/', function (request, response, next) {
-	response.send('I want coffee?');
+	response.send('the demo finally worked');
 });
 
 var httpServerPort = process.env.PORT || 8080;
