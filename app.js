@@ -4,7 +4,7 @@ var http = require('http');
 var app = express();
 
 app.get('/', function (request, response, next) {
-	response.send('containers are fun');
+	response.send('hello docker ci');
 });
 
 var httpServerPort = process.env.PORT || 8080;
